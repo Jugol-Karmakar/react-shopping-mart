@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo a {
+  font-size: 25px;
+  font-weight: 700;
+}
+nav a {
+  padding: 10px 5px;
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.menu a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  margin-right: 25px;
+}

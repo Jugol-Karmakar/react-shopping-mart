@@ -1,0 +1,24 @@
+.details {
+  padding: 5px 20px;
+  background-color: rgb(236, 196, 65);
+  border-radius: 20px;
+  border: none;
+}
+
+.close {
+  border: none;
+  padding: 5px 20px;
+  background-color: rgba(243, 51, 51, 0.849);
+  border-radius: 20px;
+  color: #ffff;
+  font-weight: 600;
+}
+
+.save {
+  border: none;
+  padding: 5px 20px;
+  background-color: rgba(69, 255, 52, 0.849);
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
