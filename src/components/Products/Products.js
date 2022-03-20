@@ -15,7 +15,11 @@ const Products = (props) => {
     <div className="container">
       <div className="row">
         {products.map((product) => (
-          <Product addToCart={addToCart} product={product}></Product>
+          <Product
+            addToCart={addToCart}
+            product={product}
+            key={product.id}
+          ></Product>
         ))}
       </div>
     </div>
