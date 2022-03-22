@@ -4,3 +4,13 @@
   border-radius: 20px;
   border: none;
 }
+
+.card-img-top {
+  height: 170px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

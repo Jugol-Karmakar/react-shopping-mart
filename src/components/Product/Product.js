@@ -9,7 +9,7 @@ const Product = (props) => {
   const { image, title } = props.product;
   return (
     <div className="col-md-4 g-4">
-      <Card style={{ width: "18rem" }}>
+      <Card className="shadow-lg border-0 p-3 h-100" style={{ width: "18rem" }}>
         <CardImg
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
@@ -19,8 +19,8 @@ const Product = (props) => {
           src={image}
         />
         <Card.Body>
-          <Card.Title>{title}</Card.Title>
-          <div className="d-flex justify-content-around mt-3">
+          <Card.Title className="mb-3">{title}</Card.Title>
+          <div className="d-flex justify-content-around mt-auto">
             <Button onClick={addToCart} className="add-cart">
               Add To Cart
             </Button>
